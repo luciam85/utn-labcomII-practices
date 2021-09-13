@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+<body bgcolor="#B2BABB">
+    <div class="login" align="center">
+        <h1><u><i>Formulario perfil</i></u></h1>
+        <form method="post">
+            <input type="text" id="estudiante" value="ESTUDIANTE"  readonly onmousedown="return false;">
+            <br>
+            <br>
+            <label for="nombre">Nombre: </label><input type="text" id="username" name="username">
+            <br>
+            <br>
+            <label for="email">Email: </label><input type="email" id="email" name="email">
+            <br>
+            <br>
+            <label for="edad">Edad: </label><input type="text" id="edad" name="edad">
+            <br>
+            <br>
+            <label for="nacionalidad">Nacionalidad: </label><select name="nacionalidad">
+                <option value= "1">-</option>
+                <option value= "2">Argentina</option>
+                <option value= "3">Esapñola</option>
+                <option value= "4">Italiana</option>
+                <option value= "5">Portugues</option>
+            </select>
+            <br>
+            <br>
+            <label for="condlaboral">Condicion laboral: </label><select name="condlaboral">
+                <option value= "1">-</option>
+                <option value= "2">Desempleado</option>
+                <option value= "3">En busqueda laboral</option>
+                <option value= "4">Part time</option>
+                <option value= "5">Full time</option>
+            </select>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Gustos personales:</legend>
+            <label for="musica">Gustos musicales: </label><input type="text" id="musica" name="musica">
+            <br>
+            <br>
+            <label for="comidas">Comidas preferidas: </label><select name="comidas">
+                <option value= "1">-</option>
+                <option value= "2">Asado</option>
+                <option value= "3">Pastas</option>
+                <option value= "4">Pizzas</option>
+                <option value= "5">Sushi</option>
+                <option value= "6">Vegetariana</option>
+            </select>
+            <br>
+            <br>
+            </fieldset>
+            <br>
+            <input type="checkbox" name="recordar">Recordar usuario
+            <br>
+            <br>
+            <button type="button" value="Enviar">Enviar</button>
+        
+        </form>
+        <br>
+    <a href="index.html"> Volver a index</a>
+    </div>
+    
+
+</body>
+</html>
